@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+<body>
+    <h2>Fibonucci Exercise</h2>
+
+    <!-- <script>
+        src= "./teamwork/sprint-2.teamwork3./fibonucci.js"
+    </script> -->
+
+  <!-- <div id="input">
+        
+    <p>Üretmek istediğiniz sayı miktarını giriniz: </p>
+    <input value="" type="text" name="" id="girilenSayi"></input>
+    <button id="uret" onclick="uret( document.getElementById('girilenSayi').value );">Üret</button>
+ 
+  </div>
+    <h1> fibonocci number </h1>
+<br><br> -->
+
+
+<!-- <script>
+  var fib = 1;
+  var lastNumb = 1; 
+  var tempory = 0;
+       
+  function uret( donusDegeri ){
+    
+    console.log( fib );
+    
+    for( var i = 0 ; i < donusDegeri ; i++ ){
+      fib = tempory + lastNumb;
+      tempory = lastNumb;
+      lastNumb = fib;
+      console.log( fib );
+    }
+} -->
+
+ <!-- </script> -->
+
+    <script> 
+        
+     let numberUser= parseInt(prompt(" sayı giriniz:"));
+     let number1 = 0;
+     let number2 = 1;
+     let total = 0;
+     let c= []
+     for(let i= 1; i<= numberUser; i++ ) { 
+        total =  number1 + number2
+        number1 = number2;
+        number2 = total
+        c.push(number2)
+        
+
+     }       
+    </script>
+    
+</body>
+</html>
